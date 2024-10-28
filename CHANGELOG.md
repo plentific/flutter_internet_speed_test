@@ -55,3 +55,6 @@
 
 ## 1.5.1
 * Updated dependencies
+
+## 1.5.2
+* Downgrade connectivity_plus
