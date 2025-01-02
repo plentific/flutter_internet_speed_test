@@ -58,3 +58,6 @@
 
 ## 1.5.2
 * Downgrade connectivity_plus
+
+## 1.5.3
+* Upgrade connectivity_plus
