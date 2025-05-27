@@ -61,3 +61,6 @@
 
 ## 1.5.3
 * Upgrade connectivity_plus
+
+## 1.5.4
+* Added namespace to build.gradle for AGP support
