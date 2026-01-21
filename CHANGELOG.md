@@ -64,3 +64,7 @@
 
 ## 1.5.4
 * Added namespace to build.gradle for AGP support
+
+## 1.5.5
+* Updated dependencies to latest versions
+* Removed tuple_dart dependency and replaced it with Dart 3 records
