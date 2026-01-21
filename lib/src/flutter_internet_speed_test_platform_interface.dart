@@ -1,7 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_internet_speed_test/src/models/server_selection_response.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
-import 'package:tuple_dart/tuple.dart';
 
 import 'callbacks_enum.dart';
 import 'flutter_internet_speed_test_method_channel.dart';
@@ -32,7 +31,7 @@ abstract class FlutterInternetSpeedTestPlatform extends PlatformInterface {
   static FlutterInternetSpeedTestPlatform get instance => _instance;
 
   Map<int,
-          Tuple4<ErrorCallback, ProgressCallback, DoneCallback, CancelCallback>>
+          (ErrorCallback, ProgressCallback, DoneCallback, CancelCallback)>
       callbacksById = {};
   int downloadRate = 0;
   int uploadRate = 0;
@@ -41,7 +40,7 @@ abstract class FlutterInternetSpeedTestPlatform extends PlatformInterface {
 
   bool logEnabled = false;
 
-  get isLogEnabled => logEnabled && kDebugMode;
+  bool get isLogEnabled => logEnabled && kDebugMode;
 
   /// Platform-specific implementations should set this with their own
   /// platform-specific class that extends [FlutterInternetSpeedTestPlatform] when
