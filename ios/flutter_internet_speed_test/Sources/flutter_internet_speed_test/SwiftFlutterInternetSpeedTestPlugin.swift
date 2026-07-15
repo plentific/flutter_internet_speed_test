@@ -1,6 +1,7 @@
 import Flutter
 import UIKit
 
+@objc(FlutterInternetSpeedTestPlugin)
 public class SwiftInternetSpeedTestPlugin: NSObject, FlutterPlugin {
     let DEFAULT_FILE_SIZE = 10485760
     let DEFAULT_TEST_TIMEOUT = 20000

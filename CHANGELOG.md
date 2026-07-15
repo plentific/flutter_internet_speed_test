@@ -68,3 +68,8 @@
 ## 1.5.5
 * Updated dependencies to latest versions
 * Removed tuple_dart dependency and replaced it with Dart 3 records
+
+## 1.5.6
+* Flutter 3.44 compatibility (SDK constraints bumped to Flutter 3.44.6)
+* Migrated Android build to Gradle KTS with Java 17 JVM targets
+* Added iOS Swift Package Manager support
